@@ -3,6 +3,8 @@
   height: 100%;
   max-width: 1280px;
   margin: 0 auto;
+  color: #FFFFFF;
+  font-family: Inter, Arial, sans-serif;
 }
 
 .header {
@@ -24,15 +26,14 @@
 
 .header__lang-link {
   font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 24px;
   line-height: 28px;
   text-align: right;
-  color: #FFFFFF;
   margin-left: auto;
   display: inline;
   text-decoration: none;
+  color: #FFFFFF;
 }
 
 .header__lang-link_selected {
@@ -83,4 +84,146 @@
 @media screen and (max-width:320px) {
   .header__lang-link_selected {
   }
+}
+
+.lead {
+  margin-top: 56px;
+  margin-left: 148px;
+  margin-right: 148px;
+}
+
+.lead__text {
+  max-width: 720px;
+  max-height: 200px;
+  margin: 0 auto;
+}
+
+.lead__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 104%;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-rendering: optimizeLegibility; 
+}
+
+.lead__subtext {
+  max-width: 640px;
+  max-height: 72px;
+  margin: 0 auto;
+}
+
+.lead__subtitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 64px;
+  text-rendering: optimizeLegibility;
+}
+
+.lead__image {
+  max-width: 100%;
+  margin: 0 auto;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.lead__caption {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width:1024px) {
+  .lead {
+   margin-left: 48px;
+   margin-right: 48px;
+   margin-top: 48px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .lead {
+    margin-left: 0px;
+    margin-right: 0px;
+   }
+}
+
+@media screen and (max-width:320px) {
+  .lead {
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 48px;
+   }
+}
+
+@media screen and (max-width:768px) {
+  .lead__text {
+    margin-left: 14px;
+    margin-right: 14px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .lead__text {
+    max-width: 288px;
+    max-height: 88px;
+    margin: 0 auto;
+  }
+}
+================================ЗДЕСЬ ЛОМАЕТСЯ ТЕКСТ=======================
+@media screen and (max-width:320px) {
+  .lead__title {
+    font-size: 40px;
+    line-height: 110%;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .lead__subtext {
+    max-width: 288px;
+    max-height: 40px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .lead__subtext {
+    max-width: 288px;
+    max-height: 40px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 125%;
+  }
+}
+
+@media screen and (max-width:1024px) {
+ 
+}
+
+@media screen and (max-width:768px) {
+  
+}
+
+@media screen and (max-width:320px) {
+  
 }
