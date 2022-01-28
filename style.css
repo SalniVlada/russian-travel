@@ -1,20 +1,25 @@
-body {
-  background-color: #E5E5E5;
+.page {
+  background-color: #2A2C2F;
+  height: 100%;
   max-width: 1280px;
   margin: 0 auto;
 }
 
 .header {
   display: flex;
-  width: 1184px;
-  height: 52px;
-  margin: auto;
+  min-height: 52px;
+  align-items: center;
   margin-top: 28px;
   justify-content: space-between;
+  margin-right: 48px;
+  margin-left: 48px;
 }
 
 .header__logo {
-  width: 176px;
+}
+
+.header__lang-links {
+  list-style-type: none;
 }
 
 .header__lang-link {
@@ -24,14 +29,58 @@ body {
   font-size: 24px;
   line-height: 28px;
   text-align: right;
-  text-decoration-line: underline;
   color: #FFFFFF;
-  width: 30px;
-  height: 28px;
+  margin-left: auto;
+  display: inline;
+  text-decoration: none;
+}
+
+.header__lang-link_selected {
+  text-decoration: underline;
   padding-right: 18px;
 }
 
-.header__lang-link:last-child {
-  padding-right: 0px;
-  text-decoration-line: none;
+@media screen and (max-width:1280px) {
+  .header {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .header {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .header {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .header {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .header__lang-link {
+  }
+}
+
+@media screen and (max-width:320px) {
+  .header__lang-link_selected {
+  }
 }
