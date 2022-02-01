@@ -1,0 +1,20 @@
+.footer__page {
+  display: inline;
+  margin-right: 18px;
+}
+
+.footer__page:last-child {
+  margin-right: 0px;
+}
+
+@media screen and (max-width:767px) {
+  .footer__page {
+    margin-bottom: 32px;
+    margin-right: 0px;
+    display: block;
+  }
+  
+  .footer__page:last-child {
+    margin-bottom: 48px;
+  }
+}

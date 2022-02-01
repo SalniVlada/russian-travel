@@ -1,0 +1,13 @@
+.footer__pages {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-left: 0px;
+}
+
+@media screen and (max-width:767px) {
+   .footer__pages {
+    display: block;
+  }
+}
