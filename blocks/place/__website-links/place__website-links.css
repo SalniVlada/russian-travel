@@ -1,0 +1,10 @@
+.place__website-links {
+  position: absolute;
+  bottom: 0px;
+}
+
+@media screen and (max-width:767px) {
+  .place__website-links {
+    position: static;
+  }
+}
