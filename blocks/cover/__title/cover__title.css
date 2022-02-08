@@ -9,6 +9,8 @@
   position: relative;
   margin: 0 auto;
   margin-bottom: 32px;
+  color: #FFFFFF;
+  max-width: 560px;
 }
 
 @media screen and (max-width:1279px) {
@@ -27,7 +29,7 @@
   .cover__title {
     font-size: 32px;
     line-height: 109%;
-    max-width: 255px;
+    max-width: 288px;
     margin-bottom: 16px;
   }
 }

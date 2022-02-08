@@ -1,0 +1,10 @@
+.header__lang-element {
+  display: inline;
+  margin-left: auto;
+  margin-right: 18px;
+  line-height: 28px;
+}
+
+.header__lang-element:last-child {
+  margin-right: 0;
+}

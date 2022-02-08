@@ -13,9 +13,7 @@
   .place {
     margin-bottom: 72px;
   }
-}
 
-@media screen and (max-width:1023px) {
   .place:last-child {
     margin-bottom: 90px;
   }
@@ -26,9 +24,7 @@
     margin-bottom: 50px;
     grid-template-columns: repeat(auto-fill, 320px);
   }
-}
 
-@media screen and (max-width:767px) {
   .place:last-child {
     margin-bottom: 64px;
   }

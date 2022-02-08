@@ -1,4 +1,7 @@
 .header__logo {
+  background: url(../../../sprint-3-images/header-logo.svg);
+  background-size: cover;
+  display: block;
   width: 176px;
   height: 52px;
 }
